@@ -73,7 +73,6 @@ export const STEPS = [
 
 export const SEGMENTS = ['Clínicas e consultórios', 'Comércio local', 'Prestadores de serviço', 'Marcas em lançamento', 'Projetos institucionais', 'Profissionais liberais']
 
-// Portfólio: só fatos confirmados. Para completar, preencha `link` e `detalhe` de cada item.
 export const PORTFOLIO = [
   {
     key: 'servem-pets',
@@ -82,8 +81,8 @@ export const PORTFOLIO = [
     front: 'Desenvolvimento web',
     detail: 'Projeto em desenvolvimento, com código versionado no GitHub e entrega próxima.',
     metric: null,
-    status: 'Em entrega',
-    link: null,
+    status: 'Finalizado',
+    link: 'https://github.com/Apolo-Gui/Servem_Pets',
     linkLabel: 'GitHub'
   },
   {
@@ -93,7 +92,7 @@ export const PORTFOLIO = [
     front: 'Design para Instagram',
     detail: 'Comunicação visual do perfil da igreja no Instagram.',
     metric: { value: '50 mil+', label: 'visualizações' },
-    status: null,
+    status: 'Finalizado',
     link: 'https://instagram.com/adpvilahipica',
     linkLabel: 'Ver perfil'
   },
@@ -105,7 +104,7 @@ export const PORTFOLIO = [
     detail: 'Criação e gestão do perfil no Instagram.',
     metric: null,
     status: null,
-    link: null,
+    link: 'https://instagram.com/cbctq2026',
     linkLabel: 'Ver perfil'
   },
   {
@@ -116,7 +115,7 @@ export const PORTFOLIO = [
     detail: 'Conteúdo e design para o perfil da faculdade no Instagram.',
     metric: null,
     status: null,
-    link: null,
+    link: 'https://instagram.com/faeterjpetropolis',
     linkLabel: 'Ver perfil'
   }
 ]
