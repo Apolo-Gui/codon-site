@@ -4,11 +4,6 @@ export default function Hero() {
   return (
     <section className="hero" id="inicio">
       <div className="wrap">
-        <div className="hero-meta">
-          <span>Agência boutique</span>
-          <span>Petrópolis · RJ</span>
-          <span className="hide-sm">22°30′S 43°11′O</span>
-        </div>
 
         <h1 className="hero-title">
           <span className="line"><span>Engenharia</span></span>
