@@ -7,7 +7,7 @@ import Services from './components/Services'
 import Process from './components/Process'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
-import { ReadingHud, Cursor, Footer } from './components/Chrome'
+import { Cursor, Footer } from './components/Chrome'
 import Scene from './three/Scene'
 import { state, prefersReducedMotion } from './store'
 
