@@ -104,7 +104,6 @@ export default function App() {
         <Contact picks={picks} setPicks={setPicks} nameRef={nameRef} />
       </main>
       <Footer />
-      <ReadingHud />
       <Cursor />
     </>
   )
